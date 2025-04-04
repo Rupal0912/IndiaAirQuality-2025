@@ -1,0 +1,15 @@
+# Python/Jupyter stuff
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large datasets (optional)
+datasets/air_quality.csv  # Ignore original if too big; keep cleaned version
+
+# Outputs (optional, if you regenerate them)
+outputs/*
+!outputs/*.png  # Keep PNGs but ignore other outputs like HTML
+
+# Misc
+*.log
+*.DS_Store  # Mac-specific
