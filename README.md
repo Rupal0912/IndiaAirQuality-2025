@@ -23,3 +23,4 @@ This project analyzes air quality across India , using data from pollution contr
 ```bash
 pip install pandas matplotlib seaborn folium scikit-learn
 jupyter notebook
+
