@@ -153,7 +153,7 @@ for _, row in pm25_data.iterrows():
     ).add_to(m)
 m.save('../outputs/air_quality_map.html')
 print("Map saved as 'air_quality_map.html' in outputs  folder")
-
+a=
 
 #Objective 5: Propose a simplified Air Quality Index (AQI) score for each city based on combined pollutant metrics.***
 from sklearn.preprocessing import MinMaxScaler
